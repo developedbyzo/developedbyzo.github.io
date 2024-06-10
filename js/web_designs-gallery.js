@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const projects = [
         { src: "display/figma-mockup-2020-display.png", target:"_blank", link: "https://www.figma.com/proto/0Nto3yBqGlvnS1eZBttEIn/Figma-Homepage-Design?type=design&node-id=0-1&scaling=min-zoom&page-id=0%3A1" },
         { src: "display/dragonflychat-app-mockup-display.png", target:"_blank", link: "https://www.figma.com/file/9dGcqB9CwvJR2o7yw2jeME/Chat-App-Homepage-Design?type=design&node-id=107%3A17&mode=design&t=mn7uz7oXTxyQo0km-1" },
+        { src: "display/together-we-go-mockup-display.png", target:"_blank", link: "https://developedbyzo.com/together-we-go/"},
         // { src: "bulba.png", link: "https://example.com/project3" }
         // Add more images and links here
     ];
