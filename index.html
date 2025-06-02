@@ -1,57 +1,480 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>developedByZo.</title>
-    <link rel="stylesheet" href="/css/home.css">
-    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
-    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
-    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Affordable, professional websites for local businesses">
+    <meta name="author" content="Alonzo">
+
+    <title>Websites for Local Businesses | Developed by Zo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+
+
 </head>
+
 <body>
-    <header class="header">
-        <a href="https://developedByZo.com" class="logo">developedByZo.</a>
-        <nav class="navbar">
-            <a href="/index.html" class="active">Home</a>
-            <a href="/about.html">About</a>
-            <!-- <a target="_blank" href="https://hopp.bio/developedbyzo">Services</a> -->
-            <div class="dropdown">
-                <button class="dropbtn">Portfolio
-                  <i class="fa fa-caret-down"></i>
+
+    <main>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="developedByZo.">
+                    <span class="navbar-brand-text" style="font-family: Share Tech Mono, monospace;">
+                        developedByZo.
+                    </span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="dropdown-content">
-                  <a href="/web_designs.html">Web Designs</a>
-                  <a href="/web_apps.html">Web Applications</a>
-                  <a href="/graphic_designs.html">Graphic Designs</a>
-                  <!-- <a href="/sql_projects.html">SQL Projects</a> -->
-                  <!-- <a href="/tableau_designs.html">Tableau Designs</a> -->
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_2">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_4">Portfolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <!--<a href="/contact.html">Contact</a>-->
         </nav>
-    </header>
 
-    <section class="home">
-        <div class="home-content">
-            <h1>Hi, I'm Alonzo Moses</h1>
-            <h3>Frontend Developer</h3>
-            <p>I'm a frontend developer dedicated to crafting engaging and user-friendly web experiences. With a solid foundation in web development, and content management, I bring a unique blend of skills to every project. Let's collaborate to bring your digital vision to life!</p>
-            <div class="btn-box">
-                <!-- <a target="_blank" href="https://hopp.bio/developedbyzo">Hire Me</a> -->
-                <a href="/contact.html">Let's Talk</a>
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1">
+            
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#3D405B" fill-opacity="1"
+                    d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+
+
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+
+            <div class="section-overlay"></div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#111827" fill-opacity="1"
+                    d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
+                </path>
+            </svg>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                        <h1 class="text-white">Websites That Work</h1>
+                        <p class="text-white">Affordable, mobile-ready websites for local business owners who want to
+                            stand out.</p>
+
+                        <div class="custom-btn-group">
+                            <a href="https://www.fiverr.com/s/2KLLQ9V" class="btn custom-btn smoothscroll me-3">Hire Me on Fiverr</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <!-- <div class="ratio ratio-16x9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoNumberHere" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div> --> <!--Future area for video-->
+                    </div>
+
+                </div>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#F9FAFB" fill-opacity="1"
+                    d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+
+
+        <section class="about-section section-padding" id="section_2">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 text-center">
+                        <h2 class="mb-lg-5 mb-4">About Me</h2>
+                    </div>
+
+                    <div class="col-lg-5 col-12 me-auto mb-4 mb-lg-0">
+
+                        <p>Hi, I'm Alonzo, a web designer and digital specialist focused on helping small businesses get online, stand out, and generate leads fast. I build clean, responsive websites with solid SEO foundations, intuitive navigation, and the kind of design that makes people want to stick around. With a background in web production, content strategy, and email deliverability, I know how to make every page work harder, not just look good. Whether it's a simple site for a local shop or a polished portfolio for a professional service, I design with purpose and launch with speed.</p>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-0">
+                        <div class="member-block">
+                            <div class="member-block-image-wrap">
+                                <img src="./images/members/1519096289818.jpeg"
+                                    class="member-block-image img-fluid" alt="">
+
+                                <!-- <ul class="social-icon">
+                                        <li class="social-icon-item">
+                                            <a href="#" class="social-icon-link bi-twitter"></a>
+                                        </li>
+
+                                        <li class="social-icon-item">
+                                            <a href="#" class="social-icon-link bi-whatsapp"></a>
+                                        </li>
+                                    </ul> -->
+                            </div>
+
+                            <div class="member-block-info d-flex align-items-center">
+                                <h4>Alonzo</h4>
+
+                                <p class="ms-auto">Developer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-bg-image">
+            <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="rgba(249, 250, 251, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z"
+                    stroke-width="0"></path>
+                <path fill="rgba(249, 250, 251, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z"
+                    stroke-width="0"></path>
+                <path fill="rgba(249, 250, 251, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z"
+                    stroke-width="0"></path>
+                <path fill="rgba(249, 250, 251, 1)"
+                    d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z" stroke-width="0"></path>
+                <path fill="rgba(249, 250, 251, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z"
+                    stroke-width="0"></path>
+            </svg>
+
+            <div class="container">
+            </div>
+
+            <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill="rgba(249, 250, 251, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z"
+                    stroke-width="0"></path>
+                <path fill="rgba(249, 250, 251, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z"
+                    stroke-width="0"></path>
+                <path fill="rgba(249, 250, 251, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z"
+                    stroke-width="0"></path>
+                <path fill="rgba(249, 250, 251, 1)"
+                    d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z" stroke-width="0"></path>
+                <path fill="rgba(249, 250, 251, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z"
+                    stroke-width="0"></path>
+            </svg>
+        </section>
+
+
+        <section class="membership-section section-padding" id="section_3">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12 text-center mx-auto mb-lg-5 mb-4">
+                        <h2>What You Get</h2>
+                    </div>
+
+                    <div class="row">
+  <div class="col-lg-4 col-md-6 col-12 mb-4">
+    <i class="bi bi-phone" style="font-size: 2rem;"></i>
+    <h5>Mobile-Friendly</h5>
+    <p>Every site looks great on phones, tablets, and desktops.</p>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12 mb-4">
+    <i class="bi bi-speedometer2" style="font-size: 2rem;"></i>
+    <h5>Fast Loading</h5>
+    <p>Optimized for speed so your customers aren’t waiting.</p>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12 mb-4">
+    <i class="bi bi-graph-up" style="font-size: 2rem;"></i>
+    <h5>SEO Ready</h5>
+    <p>Built with SEO best practices to help get found on Google.</p>
+  </div>
+</div>
+
+
+                    <!-- <div class="col-lg-5 col-12 mx-auto">
+                        <h4 class="mb-4 pb-lg-2">Recent Projects</h4>
+                        
+                    </div> -->
+
+            </div>
+            </div>
+        </section>
+
+
+        <section class="events-section section-bg section-padding" id="section_4">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-12">
+                        <h2 class="mb-lg-3" style="color: white;">Recent Projects</h2>
+                    </div>
+
+                    <div class="row custom-block mb-3">
+
+                        <div class="col-lg-4 col-md-8 col-12 order-1 order-lg-0">
+                            <div class="custom-block-image-wrap">
+                                <a href="https://developedbyzo.wixstudio.com/fade-supply-co">
+                                    <img src="images/fade-supply-co.png" class="custom-block-image img-fluid"
+                                        alt="">
+
+                                    <i class="custom-block-icon bi-link"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12 order-2 order-lg-0">
+                            <div class="custom-block-info mt-2 mt-lg-0">
+                                <a href="https://developedbyzo.wixstudio.com/fade-supply-co" class="events-title mb-3" style="color: white;">Fade Supply Co.</a>
+
+                                <p class="mb-0" style="color: white;">Fade Supply Co. is your neighborhood barbershop built for the modern man.</p>
+
+                                <div class="d-flex flex-wrap border-top mt-4 pt-3">
+
+                                    <div class="d-flex align-items-center ms-lg-auto">
+                                        <a href="https://developedbyzo.wixstudio.com/fade-supply-co" class="btn custom-btn">Fade Supply Co.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row custom-block custom-block-bg">
+                        
+
+                        <div class="col-lg-4 col-md-8 col-12 order-1 order-lg-0">
+                            <div class="custom-block-image-wrap">
+                                <a href="https://developedbyzo.wixstudio.com/mirror-mane">
+                                    <img src="images/mirror-mane.png"
+                                        class="custom-block-image img-fluid" alt="">
+
+                                    <i class="custom-block-icon bi-link"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12 order-2 order-lg-0">
+                            <div class="custom-block-info mt-2 mt-lg-0">
+                                <a href="https://developedbyzo.wixstudio.com/mirror-mane" class="events-title mb-3">Mirror & Mane</a>
+
+                                <p class="mb-0">Mirror & Mane is a boutique salon offering expert styling, vibrant color, and effortless vibes.</p>
+
+                                <div class="d-flex flex-wrap border-top mt-4 pt-3">
+
+                                    <div class="d-flex align-items-center ms-lg-auto">
+                                        <a href="https://developedbyzo.wixstudio.com/mirror-mane" class="btn custom-btn">Mirror & Mane</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row custom-block mb-3">
+
+                        <div class="col-lg-4 col-md-8 col-12 order-1 order-lg-0">
+                            <div class="custom-block-image-wrap">
+                                <a href="https://developedbyzo.wixstudio.com/the-morning-loop">
+                                    <img src="images/the-morning-loop.png" class="custom-block-image img-fluid"
+                                        alt="">
+
+                                    <i class="custom-block-icon bi-link"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12 order-2 order-lg-0">
+                            <div class="custom-block-info mt-2 mt-lg-0">
+                                <a href="https://developedbyzo.wixstudio.com/the-morning-loop" class="events-title mb-3" style="color: white;">The Morning Loop</a>
+
+                                <p class="mb-0" style="color: white;">The Morning Loop is a cozy neighborhood café serving up small-batch coffee, made-from-scratch pastries, and calm energy for the daily grind.</p>
+
+                                <div class="d-flex flex-wrap border-top mt-4 pt-3">
+
+                                    <div class="d-flex align-items-center ms-lg-auto">
+                                        <a href="https://developedbyzo.wixstudio.com/the-morning-loop" class="btn custom-btn">Local Cafe Website</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact-section section-padding" id="section_5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-5 col-12">
+                        <h2 class="mb-4 pb-2">Let's Talk</h2>
+                        <p>Have a project in mind? Reach out or book through <a href="https://www.fiverr.com/s/2KLLQ9V" style="color: #00C896; font-weight: bold;">Fiverr</a> to get started today.</p>
+            
+            <br>
+            <br>
+                        <form action="https://formspree.io/f/mldneege" method="POST" class="custom-form contact-form" role="form">
+                            <!-- Thank you message. -->
+                            <input type="hidden" name="_autoresponse" value="Thanks for reaching out! I'll get back to you soon.">
+                            <!-- Spam Blocker -->
+                            <input type="text" name="_gotcha" style="display:none">
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="form-floating">
+                                        <input type="text" name="full-name" id="full-name" class="form-control"
+                                            placeholder="Full Name" required="">
+
+                                        <label for="full-name">Full Name</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="form-floating">
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
+                                            class="form-control" placeholder="Email address" required="">
+
+                                        <label for="email">Email address</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="message" name="message"
+                                            placeholder="Describe message here"></textarea>
+
+                                        <label for="message">Message</label>
+                                    </div>
+
+                                    <button type="submit" class="form-control">Submit Form</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                        <div class="contact-info mt-5">
+                            <div class="contact-info-item">
+                                <div class="contact-info-body">
+                                    <strong>Washington, DC</strong>
+
+                                    <p class="mb-0">
+                                        <a href="mailto:developedbyzo@gmail.com" class="contact-link">
+                                            developedbyzo@gmail.com
+                                        </a>
+                                    </p>
+                                </div>
+
+                                <div class="contact-info-footer">
+                                    <!-- <a href="#">Directions</a> -->
+                                </div>
+                            </div>
+
+                            <img src="images/WorldMap.svg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12 me-auto mb-5 mb-lg-0">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="images/logo_blk.png" class="navbar-brand-image img-fluid" alt="">
+                        <span class="navbar-brand-text" style="font-family: Share Tech Mono, monospace;">
+                        developedByZo.
+                    </span>
+                    </a>
+                    <p class="copyright-text">Copyright © 2018-25 developedByZo.</p>
+                </div>
+
+                <!--<div class="col-lg-3 col-12">
+                    
+
+                    <p class="d-flex border-bottom pb-3 mb-3 me-lg-3">
+                        <span>Mon-Fri</span>
+                        6:00 AM - 6:00 PM
+                    </p>
+
+                    <p class="d-flex me-lg-3">
+                        <span>Sat-Sun</span>
+                        6:30 AM - 8:30 PM
+                    </p>
+                    
+                    <p class="copyright-text">Copyright © 2018-25 developedByZo.</p> 
+                </div>-->
+
+                <div class="col-lg-2 col-12 ms-auto">
+                    <ul class="social-icon mt-lg-5 mt-3 mb-4">
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-instagram"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-twitter"></a>
+                        </li>
+
+                        <li class="social-icon-item">
+                            <a href="#" class="social-icon-link bi-whatsapp"></a>
+                        </li>
+                    </ul>
+
+                </div>
+
             </div>
         </div>
 
-        <div class="home-smi">
-            <!-- <a target="_blank" href="#"><i class="fa-brands fa-facebook-f"></i></a> -->
-            <!-- <a target="_blank" href="#"><i class="fa-brands fa-x-twitter"></i></a> -->
-            <a target="_blank" href="https://www.linkedin.com/in/alonzo-moses/"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#111827" fill-opacity="1"
+                d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+            </path>
+        </svg>
+    </footer>
 
-        <span class="home-imgHover"></span>
-    </section>
-</body>  
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>

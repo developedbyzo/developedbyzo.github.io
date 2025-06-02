@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>developedByZo.</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <script src="/js/contact-form.js"></script>
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="https://developedByZo.com" class="logo">developedByZo.</a>
+        <nav class="navbar">
+            <a href="/index.html" >Home</a>
+            <a href="/about.html">About</a>
+            <a target="_blank" href="https://hopp.bio/developedbyzo">Services</a>
+            <div class="dropdown">
+                <button class="dropbtn">Portfolio
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/web_designs.html">Web Designs</a>
+                  <a href="/web_apps.html">Web Applications</a>
+                  <!-- <a href="/graphic_designs.html">Graphic Designs</a> -->
+                  <!-- <a href="/sql_projects.html">SQL Projects</a> -->
+                  <!-- <a href="/tableau_designs.html">Tableau Designs</a> -->
+                </div>
+            </div>
+            <!--<a href="/contact.html" class="active">Contact</a>-->
+        </nav>
+    </header>
+
+    <section class="contact">
+        <div class="contact-content">
+            <h1>Send a message.</h1>
+            <!-- <h3>Frontend Developer</h3> -->
+            <form id="contact-form" action="https://formspree.io/developedbyzo@gmail.com" method="POST">
+                <label style="margin: 0 8px; border-radius: 5px;" for="name">Name:</label>
+                <input style="margin: 0 5px; border-radius: 5px;" type="text" id="name" name="name" required>
+                
+                <label style="margin: 0 8px; border-radius: 5px;" for="email">Email:</label>
+                <input style="margin: 0 5px; border-radius: 5px;" type="email" id="email" name="email" required>
+                
+                <label style="margin: 0 8px; border-radius: 5px;" for="message">Message:</label>
+                <textarea style="margin: 0 5px; border-radius: 5px;" id="message" name="message" required></textarea>
+                
+                <!-- Change input type to button -->
+                <button class="btn-box" type="button" id="submit-button">Submit</button>
+            </form>            
+            <!-- <div class="btn-box">
+                <a href="/services.html">Hire Me</a>
+                <a href="/submit-form.php">Submit</a>
+            </div> -->
+        </div>
+
+        <div class="contact-smi">
+            <!-- <a target="_blank" href="#"><i class="fa-brands fa-facebook-f"></i></a> -->
+            <!-- <a target="_blank" href="#"><i class="fa-brands fa-x-twitter"></i></a> -->
+            <a target="_blank" href="https://www.linkedin.com/in/alonzo-moses/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+        <span class="contact-imgHover"></span>
+    </section>
+</body>  
+</html>
